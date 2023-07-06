@@ -1,0 +1,153 @@
+21:26:23.965 [main] INFO  - PASSED
+11:32:41.007 [main] INFO  - PASSED
+11:59:38.780 [main] INFO  - PASSED
+13:00:10.438 [main] INFO  - URL is loaded successfully 
+13:00:11.778 [main] INFO  - PASSED
+13:02:22.720 [main] INFO  - URL is loaded successfully 
+13:02:23.902 [main] INFO  - PASSED
+13:05:09.592 [main] INFO  - URL is loaded successfully 
+13:05:11.005 [main] INFO  - PASSED
+20:01:27.446 [main] INFO  - URL is loaded successfully 
+20:01:28.279 [main] INFO  - ABLE TO ENTER FIRSTNAME, LASTNAME AND EMAIL
+20:01:28.498 [main] INFO  - GENDER IS SELECTED
+20:01:28.653 [main] INFO  - ABLE TO ENTER MOBILE NUMBER
+20:01:31.038 [main] INFO  - SUBJECT IS SELECTED
+20:01:31.265 [main] INFO  - HOBBIES IS SELECTED
+20:01:32.109 [main] INFO  - DATE IS SELECTED
+20:01:32.110 [main] INFO  - NOT ABLE TO ENTER ADDRESS
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "demoqa.PracticeForm.driver" is null
+	at demoqa.PracticeForm.enterAddress(PracticeForm.java:74) ~[classes/:?]
+	at steps.PracticeFormsteps.user_enters_date_and(PracticeFormsteps.java:42) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:128) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:128) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:249) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123) ~[?:?]
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:110) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:111) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:82) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.Runtime.execute(Runtime.java:94) [cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:80) [cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.cli.Main.run(Main.java:87) [cucumber-core-7.4.1.jar:7.4.1]
+	at cucumber.api.cli.Main.run(Main.java:30) [cucumber-core-7.4.1.jar:7.4.1]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-7.4.1.jar:7.4.1]
+20:01:32.148 [main] INFO  - ABLE TO ENTER ADDRESS
+20:01:36.231 [main] INFO  - IMAGE IS UPLOADED
+20:01:36.484 [main] INFO  - STATE IS SELECTED
+22:02:30.557 [main] INFO  - URL is loaded successfully 
+22:02:31.307 [main] INFO  - ABLE TO ENTER FIRSTNAME, LASTNAME AND EMAIL
+22:02:31.519 [main] INFO  - GENDER IS SELECTED
+22:02:31.662 [main] INFO  - ABLE TO ENTER MOBILE NUMBER
+22:02:33.920 [main] INFO  - SUBJECT IS SELECTED
+22:02:34.102 [main] INFO  - HOBBIES IS SELECTED
+22:02:35.536 [main] INFO  - DATE IS SELECTED
+22:02:35.536 [main] INFO  - NOT ABLE TO ENTER ADDRESS
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "demoqa.PracticeForm.driver" is null
+	at demoqa.PracticeForm.enterAddress(PracticeForm.java:74) ~[classes/:?]
+	at steps.PracticeFormsteps.user_enters_date_and(PracticeFormsteps.java:42) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129) ~[cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129) [cucumber-core-7.4.1.jar:7.4.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.4.1.jar:7.4.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.4.1.jar:7.4.1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719) [testng-6.14.3.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989) [testng-6.14.3.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.3.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+22:02:35.590 [main] INFO  - ABLE TO ENTER ADDRESS
+22:02:39.691 [main] INFO  - IMAGE IS UPLOADED
+22:02:39.936 [main] INFO  - STATE IS SELECTED
+22:08:42.694 [main] INFO  - URL is loaded successfully 
+22:08:43.296 [main] INFO  - ABLE TO ENTER FIRSTNAME, LASTNAME AND EMAIL
+22:08:43.609 [main] INFO  - GENDER IS SELECTED
+22:08:43.785 [main] INFO  - ABLE TO ENTER MOBILE NUMBER
+22:08:46.061 [main] INFO  - SUBJECT IS SELECTED
+22:08:46.229 [main] INFO  - HOBBIES IS SELECTED
+22:08:47.045 [main] INFO  - DATE IS SELECTED
+22:08:47.167 [main] INFO  - ABLE TO ENTER ADDRESS
+22:08:51.240 [main] INFO  - IMAGE IS UPLOADED
+22:08:51.486 [main] INFO  - STATE IS SELECTED
+22:08:51.662 [main] INFO  - CITY IS SELECTED
+22:08:51.868 [main] INFO  - SUBMIT IS CLICKED
+22:08:52.046 [main] INFO  - SUBMIT IS CLICKED
+23:25:49.266 [main] INFO  - URL is loaded successfully 
+23:25:49.919 [main] INFO  - ABLE TO ENTER FIRSTNAME, LASTNAME AND EMAIL
+23:25:50.138 [main] INFO  - GENDER IS SELECTED
+23:25:50.321 [main] INFO  - ABLE TO ENTER MOBILE NUMBER
+23:25:52.748 [main] INFO  - SUBJECT IS SELECTED
+23:25:52.920 [main] INFO  - HOBBIES IS SELECTED
+23:25:53.841 [main] INFO  - DATE IS SELECTED
+23:25:53.975 [main] INFO  - ABLE TO ENTER ADDRESS
+23:25:58.071 [main] INFO  - IMAGE IS UPLOADED
+23:25:58.383 [main] INFO  - STATE IS SELECTED
+23:25:58.614 [main] INFO  - CITY IS SELECTED
+23:25:58.823 [main] INFO  - SUBMIT IS CLICKED
+23:25:59.109 [main] INFO  - SUBMIT IS CLICKED

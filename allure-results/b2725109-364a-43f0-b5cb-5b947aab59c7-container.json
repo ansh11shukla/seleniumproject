@@ -1,0 +1,1 @@
+{"uuid":"b2725109-364a-43f0-b5cb-5b947aab59c7","name":"Default test","children":["893733df-b5df-4a83-b9b5-f115655b41ba"],"befores":[{"name":"launchBroswer","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1686360935443,"stop":1686360950861}],"afters":[],"start":1686360935415,"stop":1686360975707}

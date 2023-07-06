@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T16:32:14Z" name="Default suite" finished-at="2023-07-05T16:32:41Z" duration-ms="26889">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@13c3c1e1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-05T16:32:14Z" name="Default test" finished-at="2023-07-05T16:32:41Z" duration-ms="26889">
+      <class name="runner.RunCuke">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCuke@13c3c1e1]" started-at="2023-07-05T16:32:14Z" name="setUpClass" finished-at="2023-07-05T16:32:16Z" duration-ms="1223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d4c4b14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@13c3c1e1]" started-at="2023-07-05T16:32:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-05T16:32:40Z" duration-ms="24549" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify register form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Student Register Form"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "demoqa.PracticeForm.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "demoqa.PracticeForm.driver" is null
+at demoqa.PracticeForm.selectCity(PracticeForm.java:164)
+at steps.PracticeFormsteps.select_state_as_and_city_as(PracticeFormsteps.java:53)
+at ✽.Select State as "NCR" and City as "Delhi"(file:///C:/Users/Anshul/eclipse-workspace/LearnSelenium/src/main/resources/Features/PracticeForm.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCuke@13c3c1e1]" started-at="2023-07-05T16:32:40Z" name="tearDownClass" finished-at="2023-07-05T16:32:41Z" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
